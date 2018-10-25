@@ -10,14 +10,34 @@
 <title>DataHawk</title>
 <style>
         body {
+            color:white;
             background-color: #102331;
+            text-align:center;
+            margin:50px;
+            font-family:-apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        .spacer {
+            border-top:1px solid white;
+            display:inline-block;
+            width:200px;
+        }
+
+        .cloudflare {
+            margin-top:20px;
+            font-size:50%;
         }
     </style>
 </head>
 <body>
-<app>
-<img src="https://analytics.datahawk.co/static/assets/img/dawk-logo.png" />
-</app>
-::CLOUDFLARE_ERROR_500S_BOX::
+<div>
+<img style="width:70px;" src="https://analytics.datahawk.co/static/assets/img/dawk-logo.png" />
+</div>
+<h2>Datahawk is currently down for maintenance, <br/>we should be back shortly.</h2>
+<div class="spacer"></div>
+<div class="cloudflare"> 
+    ::CLOUDFLARE_ERROR_500S_BOX::
+</div>
+
 </body>
 </html>
